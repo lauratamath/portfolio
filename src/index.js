@@ -2,9 +2,14 @@
 /* eslint-disable no-undef */
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Preview from './components/Cover'
+import Header from './components/Header'
 
 const App = () => (
-  <h1>Hellowwwww</h1>
+  <div>
+    <Header />
+    <Preview />
+  </div>
 )
 
 ReactDOM.render(
