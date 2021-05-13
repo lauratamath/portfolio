@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import '../css/Header.css'
+import cover from '../images/yo3.png'
+import port from '../images/titulo2.png'
+import '../css/Coverpage.css'
 
 const Options = ({ actualBackground }) => {
   let gradient = ''
@@ -40,7 +43,17 @@ const Header = () => {
   }
   window.addEventListener('scroll', handleScroll)
 
-  return <Options actualBackground={actualBackground} />
+  return (
+    <div>
+      <Options actualBackground={actualBackground} />
+      <center>
+        <div className="nombre">LAURA TAMATH</div>
+        <div className="linea" />
+        <img src={cover} alt="coverpage" height="480px" className="imagesC" />
+        <img src={port} alt="coverpage" />
+      </center>
+    </div>
+  )
 }
 
 export default Header

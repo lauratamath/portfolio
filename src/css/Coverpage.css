@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 .section{
     display: -webkit-box;
     display: -webkit-flex;
@@ -40,4 +41,41 @@
 
 .imagesC{
     margin-right: 20px;
+}
+
+.nombre{
+    font-family: Montserrat, sans-serif;
+    transform: rotate(270deg);
+    position: absolute;
+    left: -100px;
+    top: 160px;
+    height: 20px;
+    width: 380px;
+    line-height: 20px;
+    margin-top: 40px;
+    font-size: 36px;
+    color: #9a8154;
+    letter-spacing: 5px;
+    font-weight:bold;
+    text-align: left;
+}
+
+.linea{
+    -webkit-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    -moz-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    -ms-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    -o-transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    background: rgb(154 129 84);
+    position: absolute;
+    left: 82px;
+    top: 420px;
+    width: 2px;
+    height: 860px;
+    z-index: 10;
 }

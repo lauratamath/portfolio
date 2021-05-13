@@ -2,13 +2,13 @@
 /* eslint-disable no-undef */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Preview from './components/Cover'
 import Header from './components/Header'
+import About from './components/About'
 
 const App = () => (
   <div>
     <Header />
-    <Preview />
+    <About />
   </div>
 )
 
