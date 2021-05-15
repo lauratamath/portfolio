@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
+import { Link } from 'react-scroll'
 import '../css/Header.css'
 import cover from '../images/yo3.png'
 import port from '../images/titulo2.png'
@@ -7,8 +8,8 @@ import '../css/Coverpage.css'
 
 const Options = ({ actualBackground }) => {
   let gradient = ''
-  if (actualBackground === 'black') {
-    gradient = 'linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 100%)'
+  if (actualBackground === '#141414') {
+    gradient = 'linear-gradient(180deg, "#141414" 0%, rgba(20,20,20,1) 100%)'
   }
 
   const background = {
@@ -19,9 +20,15 @@ const Options = ({ actualBackground }) => {
   return (
     <div className="header" style={background}>
       <div className="horizontalList">
-        <a href="#About" className="button">about me</a>
-        <a href="#Proyect" className="button">proyects</a>
-        <a href="#Contact" className="button">contact</a>
+        <Link activeClass="active" to="About" spy smooth offset={-70} duration={500} className="button">
+          About
+        </Link>
+        <Link activeClass="active" to="Proyects" spy smooth offset={-70} duration={500} className="button">
+          Proyects
+        </Link>
+        <Link activeClass="active" to="Proyects" spy smooth offset={-70} duration={500} className="button">
+          Contact
+        </Link>
       </div>
     </div>
   )
@@ -36,7 +43,7 @@ const Header = () => {
 
   const handleScroll = () => {
     if (!(window.pageYOffset === 0)) {
-      setActualBackground('black')
+      setActualBackground('#141414')
     } else {
       setActualBackground('transparent')
     }

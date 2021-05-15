@@ -8,9 +8,6 @@ body {
 
 .header {
     display: flex;
-    padding-left: 35px;
-    padding-top: 9px;
-    padding-bottom: 13px;
     background-color: transparent;
     transition-duration: 0.3s;
     z-index: 1;
@@ -26,22 +23,27 @@ body {
 .horizontalList {
     margin-top: auto;
     margin-bottom: auto;
-    font-family: "Inconsolata", "monospace";
-    font-weight:bold;
     font-size:14px;
     padding: 0%;
     color: white;
-    padding: 9px 15px;
+    padding: 12px 15px;
     cursor: pointer;
+    background-color: #141414;
+    border: 2px solid #141414;
+    border-radius: 15px;
 }
 
 .button{
+    font-family: Inconsolata, monospace;
+    font-weight: bold;
     margin: 10px 5px;
-    background-color: rgba(56, 152, 236, 0);
     color: white;
+    padding: 10px;
+    background-color: #141414;
+    border: 2px solid #141414;
 }
 
-.button.w--current{
+.button.active{
     border-bottom: 10px solid #fff;
     -webkit-transition: background-color 200ms ease;
     transition: background-color 200ms ease;
