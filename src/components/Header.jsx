@@ -26,7 +26,7 @@ const Options = ({ actualBackground }) => {
         <Link activeClass="active" to="Proyects" spy smooth offset={-70} duration={500} className="button">
           Proyects
         </Link>
-        <Link activeClass="active" to="Proyects" spy smooth offset={-70} duration={500} className="button">
+        <Link activeClass="active" to="Contact" spy smooth offset={-70} duration={500} className="button">
           Contact
         </Link>
       </div>

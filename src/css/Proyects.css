@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+.container-3 {
+  padding-right: 2px;
+  padding-left: 2px;
+  background-color: #151515;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 728px;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.grid-2{
+  margin-top: 15px;
+  display: flex;
+  grid-column-gap: 25px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.botonp{
+  background-color: #141414;
+  border: 0.5px solid #141414;
+}
+
+.textblock{
+  font-family: Inconsolata, monospace;
+  color: #878787;
+  text-align: justify;
+  letter-spacing: normal;
+  max-width: 334px;
+  font-weight:bold;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+a:link{
+  font-family: Inconsolata, monospace;
+  color: #878787;
+}
+
+a:link:hover{
+  color: #a8a8a8;
+}
+
+a:hover{
+  color: #a8a8a8;
+}
+
+a:visited{
+  color: #878787;
+}
+
+a:active{
+  color: #9a8154;
+}
+
+.textoI{
+  font-family: Inconsolata, monospace;
+  text-align: center;
+  display: center;
+  color: "#818080";
+  font-size: 16px;
+  letter-spacing: 7px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}

@@ -43,7 +43,7 @@ body {
     border: 2px solid #141414;
 }
 
-.button.active{
+.button > .active{
     border-bottom: 10px solid #fff;
     -webkit-transition: background-color 200ms ease;
     transition: background-color 200ms ease;

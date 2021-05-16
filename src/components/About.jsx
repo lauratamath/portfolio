@@ -27,14 +27,14 @@ const About = () => (
         <br />
         I have many goals and I am working to
         achieve them. I have worked on different projects, however, the
-        languages I speak the best are:
+        languages I dominante better are:
       </div>
       <div className="seccionB">
         <Button title="HTML" text="lenguajes" />
         <Button title="CSS" text="lenguajes" />
         <Button title="C#" text="lenguajes" />
-        <Button title="Java" text="lenguajes" />
         <Button title="JavaScript" text="lenguajes" />
+        <Button title="Java" text="lenguajes" />
         <button type="button" className="buttonu">
           Python
         </button>
