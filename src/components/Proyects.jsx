@@ -61,20 +61,12 @@ export default class LightboxExample extends Component {
               Chat made only with JavaScript, in which all
               the members of the class talked, because it was connected to
               a server. In this you could see a preview of the images they send.
-              <br />
-              <br />
-              <center>
-                <a id="link" href="https://github.com/lauratamath/lab05_web">view code on GitHub</a>
-              </center>
             </div>
             <div className="textblock">
               Homer Simpson drawing made with CSS only.
               <br />
               <br />
               <center>
-                <a id="link" href="https://github.com/lauratamath/lab04_web">view code on GitHub</a>
-                <br />
-                <br />
                 <a id="link" href="https://codepen.io/lauratamath/pen/bGBEoeQ">view code on CodePen</a>
               </center>
             </div>
@@ -124,9 +116,6 @@ export default class LightboxExample extends Component {
               <br />
               <br />
               <center>
-                <a id="link" href="https://github.com/lauratamath/HuntingCovidians">view code on GitHub</a>
-                <br />
-                <br />
                 <a id="link" href="https://lauratamath.itch.io/huntingcovidians">view gameplay & dowload</a>
               </center>
             </div>
@@ -136,9 +125,6 @@ export default class LightboxExample extends Component {
               <br />
               <br />
               <center>
-                <a id="link" href="https://github.com/lauratamath/ReproductorMusical">view code on GitHub</a>
-                <br />
-                <br />
                 <a id="link" href="https://youtu.be/SV4QLkGM2Sg">how does it work?</a>
               </center>
             </div>
