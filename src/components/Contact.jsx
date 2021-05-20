@@ -8,7 +8,7 @@ import link from '../images/linkedin.png'
 const Contact = () => (
   <div id="Contact">
     <div className="container-2">
-      <div className="titulo">CONTACT</div>
+      <div className="titulo2">CONTACT</div>
       <img src={foto} alt="coverpage" width="134px" className="image-4" />
       <div className="section-5 about">
         I like working on frontend and I am open to any job opportunity,
@@ -28,7 +28,7 @@ const Contact = () => (
           </a>
         </div>
         <div className="textoP">
-          <font color="#818080">
+          <font color="#9e9e9e">
             press us!
           </font>
         </div>

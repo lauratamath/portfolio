@@ -30,7 +30,7 @@ export default class LightboxExample extends Component {
     return (
       <div id="Proyects">
         <div className="container-3">
-          <div className="titulo">PROYECTS</div>
+          <div className="titulo2">PROYECTS</div>
           <div className="textoI">
             <font color="#818080">
               press the first photo and scroll through the lightbox

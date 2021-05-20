@@ -63,11 +63,12 @@ a:active{
 
 .textoI{
   font-family: Inconsolata, monospace;
-  text-align: center;
+  text-align: right;
   display: center;
   color: "#818080";
   font-size: 16px;
-  letter-spacing: 7px;
+  letter-spacing: 4px;
   padding-top: 10px;
   padding-bottom: 15px;
+  font-weight:bold;
 }
