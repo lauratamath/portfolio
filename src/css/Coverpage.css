@@ -79,3 +79,42 @@
     height: 1400px;
     z-index: 10;
 }
+
+.textoD{
+    font-family: Inconsolata, monospace;
+    text-align: right;
+    display: center;
+    color: #818080;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight:bold;
+    display: inline-block;
+}
+
+.textol{
+    font-family: Inconsolata, monospace;
+    text-align: right;
+    display: center;
+    color: #818080;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight:bold;
+    display: inline-block;
+    margin: 6px;
+}
+
+.container-7 {
+    padding-right: 2px;
+    padding-left: 2px;
+    background-color: #151515;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 728px;
+    flex-direction: column;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }

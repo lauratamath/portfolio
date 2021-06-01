@@ -4,6 +4,7 @@ import foto from '../images/yo4.png'
 import git from '../images/gith.png'
 import gmail from '../images/gmail.png'
 import link from '../images/linkedin.png'
+import fiverr from '../images/fiverr.png'
 
 const Contact = () => (
   <div id="Contact">
@@ -22,6 +23,9 @@ const Contact = () => (
           </a>
           <a href="https://www.linkedin.com/in/lauratamath/">
             <img src={link} id="link" alt="github" width="50px" />
+          </a>
+          <a href="https://www.fiverr.com/lauratamath?up_rollout=true">
+            <img src={fiverr} id="link" alt="fiverr" width="50px" />
           </a>
           <a href="mailto:lauratamath@gmail.com">
             <img src={gmail} id="link" alt="github" width="50px" />

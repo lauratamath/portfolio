@@ -24,7 +24,7 @@ const Options = ({ actualBackground }) => {
           About
         </Link>
         <Link activeClass="active" to="Proyects" spy smooth offset={-70} duration={500} className="button">
-          Proyects
+          Projects
         </Link>
         <Link activeClass="active" to="Contact" spy smooth offset={-70} duration={500} className="button">
           Contact
@@ -58,6 +58,13 @@ const Header = () => {
         <div className="linea" />
         <img src={cover} alt="coverpage" height="480px" className="imagesC" />
         <img src={port} alt="coverpage" />
+        <div className="container-7">
+          <div className="textoD">UI/UX DESIGNER</div>
+          <div className="textol">|</div>
+          <div className="textoD">WEB DEVELOPER</div>
+          <div className="textol">|</div>
+          <div className="textoD">GAME DESIGN/DEVELOPER</div>
+        </div>
       </center>
     </div>
   )
